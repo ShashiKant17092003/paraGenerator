@@ -1,0 +1,51 @@
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(135, 135, 135, 0.189);
+}
+#box p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:justify;
+}
+#input{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+button{
+    margin-left: 2px;
+}
+#num{
+    padding: 1px;
+    margin: 2px;
+}
+input{
+    border: 2px solid rgb(214, 213, 213);
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 24px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+#title{
+    font-size: 40px;
+    margin-left: 42%;
+    margin-top: 3%;
+}
