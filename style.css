@@ -44,8 +44,27 @@ button{
     font-weight: 500;
     color: white;
 }
-#title{
-    font-size: 40px;
-    margin-left: 42%;
-    margin-top: 3%;
+
+#para{
+    margin-top: 10px;
+    margin-left: 39%;
+    font-size: 30px;
+}
+@media (max-width: 600px) {
+    #input {
+        margin: 15% auto; 
+    }
+    #num{
+        margin-left: 15%;
+        width: 69%;
+        margin-bottom: 15px;
+    }
+    input, button {
+        margin-top: 2px;
+        width: 70%;
+        margin-left: 15%; 
+    }
+    #para{
+        margin-left: 18%;
+    }
 }
